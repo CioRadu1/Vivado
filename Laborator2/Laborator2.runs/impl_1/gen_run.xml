@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1709715524">
+  <File Type="BITSTR-BMM" Name="SEGMENTE_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="SEGMENTE_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="SEGMENTE_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="SEGMENTE_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="SEGMENTE.tcl"/>
+  <File Type="OPT-TIMING" Name="SEGMENTE_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="SEGMENTE_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="SEGMENTE_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="SEGMENTE_reports.tcl"/>
+  <File Type="OPT-DRC" Name="SEGMENTE_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="SEGMENTE.hwdef"/>
+  <File Type="PWROPT-DCP" Name="SEGMENTE_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="SEGMENTE_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="SEGMENTE_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="SEGMENTE_placed.dcp"/>
+  <File Type="PLACE-IO" Name="SEGMENTE_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="SEGMENTE_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="SEGMENTE_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="SEGMENTE_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="SEGMENTE_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="SEGMENTE_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="SEGMENTE_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="SEGMENTE.bgn"/>
+  <File Type="PLACE-TIMING" Name="SEGMENTE_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="SEGMENTE_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="SEGMENTE.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="SEGMENTE_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="SEGMENTE_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="SEGMENTE_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="SEGMENTE.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="SEGMENTE_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="SEGMENTE_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="SEGMENTE_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="SEGMENTE_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="SEGMENTE_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="SEGMENTE_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="SEGMENTE.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="SEGMENTE_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="SEGMENTE.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="SEGMENTE_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="SEGMENTE_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="SEGMENTE.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SEGMENTE_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="SEGMENTE_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="SEGMENTE_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="SEGMENTE_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="SEGMENTE_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="SEGMENTE_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="SEGMENTE_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="SEGMENTE_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="SEGMENTE_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="SEGMENTE_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="SEGMENTE_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="SEGMENTE_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="SEGMENTE_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="SEGMENTE_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="SEGMENTE_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="SEGMENTE_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="SEGMENTE_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="SEGMENTE_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="SEGMENTE_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="SEGMENTE.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="SEGMENTE_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="SEGMENTE.rbt"/>
+  <File Type="BITSTR-NKY" Name="SEGMENTE.nky"/>
+  <File Type="BG-DRC" Name="SEGMENTE.drc"/>
+  <File Type="RDI-RDI" Name="SEGMENTE.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/SEGMENTE.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="C:/Users/fdrff/Downloads/SSD.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HEX_DECODER.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX8_1_8BITI.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/COUNTER_17_BITI.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux8_1_4biti.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SEGMENTE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="C:/Users/fdrff/Downloads/NexysA7_test_env.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

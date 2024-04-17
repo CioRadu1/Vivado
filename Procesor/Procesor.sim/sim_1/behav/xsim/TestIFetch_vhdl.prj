@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Procesor.srcs/sources_1/new/IFetch.vhd" \
+"../../../../../Laborator_3/Laborator_3.srcs/sources_1/new/MPG.vhd" \
+"../../../../../Laborator_3/Laborator_3.srcs/sources_1/new/ROM.vhd" \
+"../../../../../Laborator2/Laborator2.srcs/sources_1/new/SEGMENTE.vhd" \
+"../../../../Procesor.srcs/sources_1/new/TestIFetch.vhd" \
+
+# Do not sort compile order
+nosort
