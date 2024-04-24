@@ -16,10 +16,7 @@ end MainControlUnit;
 
 architecture Behavioral of MainControlUnit is
 begin
-    RegDst <= '0'; ExtOp <= '0'; ALUSrc <= '0';
-    Branch <= '0'; Jump <= '0'; MemWrite <= '0';
-    MemToReg <= '0'; RegWrite <= '0'; ALUOp <= "000";
-    Main: PROCESS(INSTRUCTION)
+    Main: PROCESS(INSTRUCTION) 
           BEGIN
               CASE INSTRUCTION IS
                     WHEN "000000" => RegDst <= '1'; 
@@ -52,7 +49,7 @@ begin
                                      ALUOp <= "010";
                                      
                     WHEN "000001" => RegDst <= '0';
-                                     ExtOp <= '0'; 
+                                     ExtOp <= '1'; 
                                      ALUSrc <= '1';
                                      Branch <= '0';
                                      Jump <= '0';
@@ -61,8 +58,8 @@ begin
                                      ALUOp <= "010";
                                      
                     WHEN "001001" => RegDst <= '0';
-                                     ExtOp <= '0'; 
-                                     ALUSrc <= '1';
+                                     ExtOp <= '1'; 
+                                     ALUSrc <= '0';
                                      Branch <= '1';
                                      Jump <= '0';
                                      MemWrite <= '0';

@@ -3,12 +3,12 @@ use IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 USE IEEE.NUMERIC_STD.ALL;
 entity Procesor is
-  Port (   CLK : in STD_LOGIC;
-           BTN : in STD_LOGIC_VECTOR (4 downto 0);
-           SW : in STD_LOGIC_VECTOR (15 downto 0);
-           LED : out STD_LOGIC_VECTOR (15 downto 0);
-           AN : out STD_LOGIC_VECTOR (7 downto 0);
-           CAT : out STD_LOGIC_VECTOR (6 downto 0));
+  Port (   clk : in STD_LOGIC;
+           btn : in STD_LOGIC_VECTOR (4 downto 0);
+           sw : in STD_LOGIC_VECTOR (15 downto 0);
+           led : out STD_LOGIC_VECTOR (15 downto 0);
+           an : out STD_LOGIC_VECTOR (7 downto 0);
+           cat : out STD_LOGIC_VECTOR (6 downto 0));
 end Procesor;
 
 architecture ProcesorArchitecture of Procesor is

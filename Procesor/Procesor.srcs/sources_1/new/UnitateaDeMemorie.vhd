@@ -13,7 +13,16 @@ end UnitateaDeMemorie;
 
 architecture Behavioral of UnitateaDeMemorie is
 type RAM_TYPE is array (0 to 63) of std_logic_vector(31 downto 0);
-signal RAM : RAM_TYPE;
+signal RAM : RAM_TYPE :=(
+    X"00000005",--00--de aici citim numarul de elemente N
+    X"00000001",--01--de aici citim vectorul
+    X"00000002",--02
+    X"00000003",--03
+    X"00000004",--04
+    X"00000005",--05
+    X"00000000",--06--aici scriem rezultatul
+            
+OTHERS => X"00000000");
 begin
     
     ALUResOut <= ALUResIn;

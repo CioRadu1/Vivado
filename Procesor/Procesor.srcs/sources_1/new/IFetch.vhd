@@ -39,14 +39,14 @@ begin
             END IF;
     END PROCESS PC;
     
-    PCrs2 <= OUTPC(29 downto 0) & "00"; 
+    PCrs2 <= OUTPC + 4; 
     
     MUX_BRANCH: PROCESS(PCSrc, OUTPC, BRANCH_ADRESS)
     BEGIN 
        IF PCSrc = '1' THEN 
           MUX_BRANCH_OUT <= BRANCH_ADRESS;
        ELSE 
-          MUX_BRANCH_OUT <= OUTPC(29 downto 0) & "00"; 
+          MUX_BRANCH_OUT <= OUTPC + 4; 
        END IF;
     END PROCESS MUX_BRANCH;
     
